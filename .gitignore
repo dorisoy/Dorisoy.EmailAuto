@@ -48,3 +48,5 @@ Thumbs.db
 *.mov
 *.wmv
 
+Dorisoy.EmailAuto/obj/
+Dorisoy.EmailAuto/bin/
