@@ -1,29 +1,37 @@
-# README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+#  Dorisoy.EmailAuto
 
-### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## 开发工具
+	
+	● Visual Studio Code 2019
 
-### How do I get set up? ###
+## 技术
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+	● Dotnet Core 3.1
 
-### Contribution guidelines ###
+## 项目结构
 
-* Writing tests
-* Code review
-* Other guidelines
+	*root*
+	│
+	├── */Infrastructure/*
+	│ ├── */DataContext/*
+	│ ├── Database DbContext
+	│ ├── */Helper/*
+	│ ├── Project helper methods.
+	├── */Model/*
+	│ ├── Database table model
+	├── */Repositories/*
+	│ ├── */Interface/* Interface in C# is a blueprint of a class.
+	│ ├── Repository is a way to implement data access layer.
+	├── */Resources/*
+	│ ├── Resources.resx file map with this folder. Use for static files.
+	├── */Services/*
+	│ ├── */Interface/* Interface in C# is a blueprint of a class.
+	│ ├── Service layer contains business logic or some other implementation.
+	├── */ViewModel/*
+	│ ├── ViewModel is responsible for preparing and managing the data for an Activity.
+	│ ├── *Program.cs* Main Program
+	└──
 
-### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
