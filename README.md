@@ -33,5 +33,9 @@
 	│ ├── ViewModel is responsible for preparing and managing the data for an Activity.
 	│ ├── *Program.cs* Main Program
 	└──
+	
+## 截图
+
+<img src="https://github.com/dorisoy/Dorisoy.EmailAuto/blob/master/s.png"/>
 
 
